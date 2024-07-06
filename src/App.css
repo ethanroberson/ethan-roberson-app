@@ -1,10 +1,24 @@
 .App {
   text-align: center;
+  overflow: hidden;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.logo {
+  width: 225px;
+  cursor: pointer;
+}
+
+.logo-btn {
+  cursor: pointer;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -24,8 +38,65 @@
   color: white;
 }
 
+.hidden {
+  display: none;
+}
+.visible {
+  display: auto;
+}
+
+#darkModeBtn, #lightModeBtn {
+  background: #282c34;
+  border-radius: 360px;
+  height: 50px;
+  width: 50px;
+  outline: none;
+  padding: 10px;
+  border: none;
+  font-size: 27px;
+  color: yellow;
+}
+
+#pageTitle {
+display: block;
+width: 100%;
+position: relative;
+background: #fff;
+z-index: 100;
+padding-top: 10px;
+padding-bottom: 10px;
+letter-spacing: 3px;
+}
+
+.white-text {
+  color: #fff !important;
+}
+
+.dark-text {
+  color: #111827 !important;
+}
+
+h1, h2, h3, h4, h5, p, span  {
+  color: #6C697B;
+}
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+#darkLightBtnContainer {
+  position: fixed;
+  text-align: right;
+  right: 15px;
+  bottom: 15px;
+  width: 100%;
 }
 
 @keyframes App-logo-spin {

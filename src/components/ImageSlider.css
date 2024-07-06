@@ -1,0 +1,45 @@
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
+.slick-prev {
+  left: 0;
+  padding-left: 10px;
+}
+
+.slick-next {
+  right: 0;
+  padding-right: 10px;
+}
+
+.slider-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .slider-image {
+    width: 100%;
+    height: 400px !important;
+    object-fit: cover;
+    border-radius: 7px;
+    height: auto;
+    display: block;
+  }

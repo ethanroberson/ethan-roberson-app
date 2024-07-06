@@ -1,0 +1,28 @@
+.status-elem-container {
+    width: 100%;
+    max-width: 400px;
+    }
+    
+    .available-elem {
+    width: fit-content;
+    display: none;
+    min-width: 75px;
+    padding: 10px 20px;
+    background: green;
+    text-align: center;
+    border-radius: 360px;
+    }
+    
+    .unavailable-elem {
+    width: fit-content;
+    display: none;
+    min-width: 75px;
+    padding: 10px 20px;
+    background: gray;
+    text-align: center;
+    border-radius: 360px;
+    }
+
+    .status-txt {
+        color: #fff !important;
+    }

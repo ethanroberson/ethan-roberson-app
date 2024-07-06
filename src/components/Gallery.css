@@ -1,0 +1,140 @@
+
+.gallery-container {
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+#galleryTitle {
+    font-size: 35px;
+    padding-top: 50px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    }
+    
+    .buttons a {
+    background: #333;
+    color: #fff;
+    padding: 11px 22px;
+    border-radius: 11px;
+    text-decoration: none;
+    }
+    
+    #gallery1, #gallery2, #gallery3, #gallery4 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 50px;
+    margin-top: 60px;
+    }
+    
+    #gallery1 img, #gallery2 img, #gallery3 img, #gallery4 img {
+    margin: 10px;
+    border-radius: 11px;
+    width: 100%;
+    max-width: 375px;
+    min-width: 375px;
+    height: 350px;
+    object-fit: cover;
+    box-shadow: 0px 0px 20px #ccc;
+    transition: 0.25s all ease-in-out;
+    filter: grayscale(1);
+    }
+    
+    #gallery1 img:hover, #gallery2 img:hover, #gallery3 img:hover {
+     transform: scale(1.07);
+     filter: none !important;
+    }
+
+    #imageLarge {
+        width: 100%;
+        max-width: 1200px;
+        height: 700px;
+        background: #333;
+        border-radius: 11px;
+        margin: 0 auto; 
+        position: fixed;
+        z-index: 999999;
+        top: 50px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: none;
+       }
+       
+       .lg-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+        margin-top: -50px;
+        position: relative;
+        border-radius: 11px;
+        }
+        
+        #closeImgModal {
+        float: right;
+        background: none;
+        font-size: 22px;
+        border: none;
+        color: #fff;
+        margin: 5px;
+        width: 40px;
+        height: 40px;
+        box-shadow: 0px 0px 3px #333;
+        border-radius: 360px;
+        cursor: pointer;
+        }
+    
+    .animate-fade {
+    animation: slowFade 1.5s;
+    }
+
+    .animate-scale-fade {
+        animation: scaleIn .4s;
+    }
+    
+
+    .img-title {
+        margin-top: 150px;
+        transition: .4s ease-in-out;
+        width: 100%;
+        max-width: 350px;
+        text-align: left;
+        position: absolute;
+        opacity: 0;
+        padding-left: 10px;
+    }
+
+    .img-title-container:hover > * {
+        margin-top: -50px;
+        opacity: 1;
+    }
+
+
+
+
+    
+    @keyframes slowFade {
+
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+    
+    }
+
+    .scale-in {
+        animation: scaleIn .5s;
+        }
+        
+        @keyframes scaleIn {
+        0%{transform: scale(.5);
+        opacity: .5;
+        };
+        100%{transform: scale(1);
+        opacity: 1;
+        }
+    }

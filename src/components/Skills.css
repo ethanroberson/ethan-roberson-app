@@ -1,0 +1,21 @@
+
+.slider-container {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    overflow: hidden !important;;
+    margin: 0 !important;
+}
+
+.skill-slider {
+    animation: autoSlider 60s linear infinite !important;
+}
+
+@keyframes autoSlider {
+    0% {
+    transform: translateX(0);
+    }
+    100% {
+    transform: translatex(-850px);
+    }
+  }

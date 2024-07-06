@@ -1,0 +1,70 @@
+.full-width-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding: 20px;
+}
+
+.full-width :not(h3) {
+    width: 100%;
+    max-width: 1220px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.full-width h3 {
+    font-size: 33px;
+}
+
+.full-width img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 360px;
+    margin-bottom: 25px;
+}
+
+.full-width p {
+    font-size: 22px;
+}
+
+.full-width p {
+    padding-bottom: 15px;
+}
+
+.img-icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.linkedin-link {
+    width: fit-content !important;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.linkedin-icon {
+    font-size: 33px;
+    color: #1166C2;
+}
+
+.highlight {
+    background: #333;
+    border-radius: 3px;
+}
+
+.flex.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 200px;
+    background: #ACECFF;
+    border-radius: 360px;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+
+.contact-elem .linkedin-icon {
+    color: #333 !important;
+}

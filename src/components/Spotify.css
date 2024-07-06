@@ -1,0 +1,7 @@
+.spotify-container {
+    width: 100%;
+    max-width: 425px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
