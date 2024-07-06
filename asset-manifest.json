@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ethan-roberson-app/static/css/main.5805bf49.css",
-    "main.js": "/ethan-roberson-app/static/js/main.98599fdf.js",
+    "main.js": "/ethan-roberson-app/static/js/main.1125a542.js",
     "static/js/787.b235fb96.chunk.js": "/ethan-roberson-app/static/js/787.b235fb96.chunk.js",
     "static/media/modern-bg.svg": "/ethan-roberson-app/static/media/modern-bg.b25fc17f0b2dd48fab52.svg",
     "static/media/roof-visualizer.mp4": "/ethan-roberson-app/static/media/roof-visualizer.da8c8370a0bbd3a66f83.mp4",
@@ -43,11 +43,11 @@
     "static/media/slick.woff": "/ethan-roberson-app/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ethan-roberson-app/index.html",
     "main.5805bf49.css.map": "/ethan-roberson-app/static/css/main.5805bf49.css.map",
-    "main.98599fdf.js.map": "/ethan-roberson-app/static/js/main.98599fdf.js.map",
+    "main.1125a542.js.map": "/ethan-roberson-app/static/js/main.1125a542.js.map",
     "787.b235fb96.chunk.js.map": "/ethan-roberson-app/static/js/787.b235fb96.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5805bf49.css",
-    "static/js/main.98599fdf.js"
+    "static/js/main.1125a542.js"
   ]
 }
